@@ -128,7 +128,8 @@ irán anunciando y lanzando según la demanda y el feedback de la comunidad.
 El equipo detrás del proyecto NFT GOLDEN ELF está formado por Dario Gonzalez y Nelson Castro Andrews,
 dos profesionales con amplia experiencia y reconocimiento en el ámbito de la tecnología, el diseño y la
 innovación.
-Dario Gonzalez es el desarrollador full-stack del proyecto, encargado de crear y mantener el sitio web, los juegos y las aplicaciones del ecosistema NFT GOLDEN ELF. Dario tiene más de 10
+Dario Gonzalez es el desarrollador full-stack del proyecto, encargado de crear y mantener el sitio web, los juegos
+y las aplicaciones del ecosistema NFT GOLDEN ELF. Dario tiene más de 10
 años de experiencia en el desarrollo de aplicaciones web y móviles, especializado en el uso de tecnologías como
 React, Node.js, MongoDB. Dario ha trabajado en varios proyectos exitosos relacionados con el
 blockchain y los NFT, como CryptoKitties, Decentraland y Axie Infinity.
@@ -203,18 +204,34 @@ rewardRate(): devuelve la tasa de recompensa actual del contrato inteligente, qu
 tokens NGELF que se generan por cada token NGOLD bloqueado por segundo. Esta tasa de
 recompensa se ajusta dinámicamente según la oferta y la demanda de los tokens NGOLD y NGELF.
 Recursos
+
 Sitio web oficial del proyecto NFT GOLDEN ELF: https://nftgoldenelf.com/
+
 Twitter oficial del proyecto NFT GOLDEN ELF: https://twitter.com/nftgoldenelf
+
 Instagram oficial del proyecto NFT GOLDEN ELF: https://www.instagram.com/nftgoldenelf/
+
 Discord oficial del proyecto NFT GOLDEN ELF: https://discord.gg/nftgoldenelf
+
 OpenSea, el principal mercado de NFT: https://opensea.io/
+
 Rarible, otro mercado de NFT: https://rarible.com/
+
 Uniswap, un protocolo de intercambio descentralizado: https://uniswap.org/
+
 Sushiswap, otro protocolo de intercambio descentralizado: https://sushi.com/
+
 ENS, el servicio de nombres de Ethereum: https://ens.domains/
+
 IPFS, el sistema de archivos interplanetario: https://ipfs.io/
+
 Polygon, una solución de escalado para Ethereum: https://polygon.technology/
+
 ConsenSys, la empresa líder en el desarrollo de blockchain y NFT: https://consensys.net/
+
 CryptoKitties, el primer juego de NFT: https://www.cryptokitties.co/
+
 Decentraland, una plataforma de realidad virtual basada en NFT: https://decentraland.org/
+
 Axie Infinity, un juego de NFT con mecánica de play-to-earn: https://axieinfinity.com
+
