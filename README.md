@@ -195,14 +195,7 @@ Premios
 
 En cada desafió del hackaton , se premiará con $150 al primer puesto. Además, los competidores acumularán buhos a lo largo
 del hackaton . Al final, el ganador será quien haya sumado más buhos de los 5 objetivos.
+# Bienvenidos a mi Github
 
-1er Lugar                                                  2do Lugar                                                               3er Lugar
-  $500                                                       $200                                               5 membresías anuales gratuitas del chat Napoleon
-Golden Elf NFT especial                                 Comun Golden Elf                                                      Comun Golden Elf
-5 membresías anuales gratuitas del chat Napoleon     5 membresías anuales gratuitas del chat Napoleon          Recomendación por Linkelit por el CEO de las empresas
-
-Recomendación por Linkelit por el                    Recomendación por Linkelit por el
-CEO de las empresas patrocinantes                    CEO de las empresas patrocinantes                                     Role en el discord del hackaton
-
-Role en el discord del hackaton                       Role en el discord del hackaton
-
+<p align="center">
+<img src="https://drive.google.com/file/d/1U8--O_dG30OdtXtWGAkBsT2nropIO9a-/view?usp=sharing"  height=100>
