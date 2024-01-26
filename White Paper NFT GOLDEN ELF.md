@@ -1,4 +1,4 @@
-# White paper de Golden ELF
+### White paper de Golden ELF
 
 ***1. Introducción***
 
