@@ -93,26 +93,116 @@ sin variación y van de acorde con los tracks del desarrollo web o landing:***
 
 ***Funcionalidad:*** La aplicación web debe cumplir con los requisitos funcionales establecidos. Esto incluye la capacidad de
 realizar las tareas para las que se ha diseñado, así como la facilidad de uso y la accesibilidad para los usuarios.
-Efectividad: El website y la landing deben ser efectivos en la consecución de sus objetivos. Esto puede medirse en términos
+
+***Efectividad:*** El website y la landing deben ser efectivos en la consecución de sus objetivos. Esto puede medirse en términos
 de la cantidad de usuarios que tendrá de visita (tome en cuenta los tipos de servidores a sugerir, ejemplo: Apache, NGIX), el
 tiempo que pasan utilizando la aplicación o los resultados que obtienen al utilizarla.
+
 ***Eficiencia:*** El website y la landing deben ser eficientes en el uso de los recursos. Esto incluye el consumo de memoria en los
 diferentes browser (considere los browser del mercado -se exceptúa a Chromium), CPU y ancho de banda.
+
 ***Ciberseguridad:*** El website y la landing deben ser seguras y protegidas de ataques maliciosos. Esto incluye la
 implementación de medidas de seguridad adecuadas, como la protección contra el robo de datos y la falsificación de
 solicitudes entre sitios (considere ataques DDoS en tiempo real y Phishing).
-UI/UX: El website y la landing debe ser fácil de usar y comprender por los usuarios. Esto incluye el diseño de una interfaz
+
+***UI/UX:*** El website y la landing debe ser fácil de usar y comprender por los usuarios. Esto incluye el diseño de una interfaz
 intuitiva y la utilización de elementos de navegación claros y concisos. Considere la experiencia de usuario basada en leyes
 UX, al igual que un user flow sin dificultades.
+
 ***Responsive:*** Basado en la accesibilidad a internet en los utlimos años, deben diseñar un sitio responsivo, la asignación de
 Media Queries es un plus.
-Mantenibilidad predictiva y correctiva: El website y la landing debe ser fácil de mantener y actualizar. Esto incluye el uso de
+
+***Mantenibilidad predictiva y correctiva:*** El website y la landing debe ser fácil de mantener y actualizar. Esto incluye el uso de
 un código limpio y bien estructurado, así como la documentación adecuada.
+
 ***Rendimiento:*** El website y la landing debe funcionar con un rendimiento adecuado, sin ralentizaciones ni errores. Esto
 puede medirse en términos del tiempo de carga de las páginas, la capacidad de respuesta de la aplicación y la estabilidad
 de la aplicación. Una alta calidad en código para la actividad en segundo plano y los efectos visuales, como el
 desplazamiento fluido y la velocidad de fotogramas de los vídeo es un plus.
-Estos criterios pueden ser evaluados de forma cualitativa o cuantitativa. La evaluación cualitativa se basa en la opinión de
+
+***Estos criterios pueden ser evaluados de forma cualitativa o cuantitativa. La evaluación cualitativa se basa en la opinión de
 expertos o usuarios, mientras que la evaluación cuantitativa se basa en datos objetivos, como el tiempo de carga de las páginas
-o el número de errores, estos serán ponderados.
+o el número de errores, estos serán ponderados.***
+
+# ***CRITERIOS ESPECÍFICOS PARA EL ETHICAL HACKING***
+
+***A LA APP NAPOLEÓN CHAT***
+
+En este track vamos a evaluar tu habilidades como "DevSecOps", esperando que puedan combinar habilidades técnicas de
+desarrollo de software con una profunda práctica en seguridad informática. El objetivo es que así no sean DevSecOps puedan
+de manera individual o grupal utilizar sus habilidades para identificar y mitigar vulnerabilidades en la App Napoleón Chat la
+cual se encuentra disponible tanto App Store como Google Play Store.
+
+# ***Estos criterios son fijos y sin variación y van de acorde con los tracks de ethical hacking:***
+
+***Habilidades técnicas:*** Deben demostrar sus habilidades técnicas en el campo del hacking ético. Esto incluye la capacidad de
+comprender los conceptos básicos de la seguridad informática, realizar pruebas de penetración, identificar vulnerabilidades
+y explotarlas; sino logran identificar vulnerabilidades o ejecutar penetraciones por favor no olvide documentar los pasos
+porque los intentos también cuenta para la evaluación.
+
+***Estará permitido la implementación y puesta en desarrollo para el track las siguientes consideraciones técnicas específicas:***
+
+***Desarrollo de software:*** Los lenguajes sugeridos para desarrollar herramientas y scripts son: Python, Java, C++, Node.js y .Js
+
+***Ciberseguridad:*** Conocimientos en sistemas operativos, criptografía, vulnerabilidades comunes y técnicas de ataque.
+
+***Scripting:*** Se permite desarrollar Bash, PowerShell, Python para la automatización de tareas y análisis de vulnerabilidades.
+Pruebas de seguridad: Experiencia en técnicas como pruebas de penetración Cajan negra, gris y blanca, análisis de código
+estático y dinámico, análisis de vulnerabilidades web.
+
+***APIs y frameworks de seguridad:*** Conocimiento de APIs y frameworks como Nessus.
+
+***Ética:*** Los participantes de este track deben demostrar un alto nivel de ética en sus prácticas de hacking ético. Esto incluye
+la capacidad de respetar la propiedad intelectual de la aplicación Napoleón Chat, evitar causar daños y reportar sus
+hallazgos de forma responsable.
+
+***Comunicación:*** Los participantes deben ser capaces de comunicar sus hallazgos de forma clara, concisa y con toda
+transparencia. Esto incluye la capacidad de redactar informes de pruebas de penetración, presentar sus hallazgos a las
+partes interesadas y trabajar en equipo. En caso de cometer algún daño en pruebas de vulnerabilidad informar rápidamente
+al staff organizador.
+
+***Evidencias Forenses:*** Análisis profundo en informática forense para cyber-attacks
+***ESTÁ TERMINANTEMENTE PROHBIDOS LOS EXPLOIT Y/O LAS EXPLOTACIONES DE VULNERABILIDAD
+Se permitirá solo: Reconocimiento pasivo, Enumeración activa y Escaneo de Vulnerabilidades.***
+
+# ***DESCALIFICACIONES O INADMISIÓN DE EQUIPOS***
+
+***A continuación, se presentan las razones explícitas sin excepción por la cual un equipo puede quedar descalificado o
+inadmitido antes o durante el inicio de las dos etapas del hackathon:
+No cumplir con los requisitos de participación: Deben ser personales reales, no bots, no compañeros generados por IA.
+No respetar las normas del hackathon: todas y cada una de las normas que así se leen o interpretan de manera o no
+específicas, como las relacionadas con el uso de software o hardware, la propiedad intelectual o la seguridad.
+No cumplir con los deadlines: Los equipos que no cumplan con los deadlines establecidos antes, durante y después objetos
+de la participación del hackathon pueden ser descalificados.
+Comportamiento inapropiado: Dentro de la comunidad Buhos Nocturnos en Discord se suele tener transmisiones en VIVO,
+debates y workshops, en estos eventos reina la colaboración y respeto, con este mismo ambiente queremos que los equipos
+hagan lo mismo durante el desarrollo del hackathon y que aquellos que muestren un comportamiento contrario a lo antes
+mencionado o lo que es igual a inapropiado, como el acoso o la discriminación, pueden ser descalificados.
+Ejemplos específicos de comportamientos que pueden llevar a la descalificación:
+Usar software o hardware no autorizado.
+Copiar o plagiar el trabajo de otros en repositorios de participantes o públicos.
+Presentar una solución que no sea original o plagiada.
+No cumplir con el cronograma, las normas o los deadlines establecidos.
+Violación a los derechos de la propiedad intelectual.
+Utilización de Software malicioso para su beneficio o perjudicar a otros miembros y/o equipos participantes.
+Realizar explotación de vulnerabilidades y/o la utilización de exploits.
+Guardarse para sí mismo cualquier hallazgo encontrado originado por el desarrollo de cualquiera de los tracks.
+Acosar o discriminar a otros participantes de manera directa.
+Deben tener un fuerte sentido de la ética y actuar siempre con integridad, respetando las leyes y los códigos de conducta
+propios de un Dev.***
+
+Premios
+
+En cada desafió del hackaton , se premiará con $150 al primer puesto. Además, los competidores acumularán buhos a lo largo
+del hackaton . Al final, el ganador será quien haya sumado más buhos de los 5 objetivos.
+
+1er Lugar                                                  2do Lugar                                                               3er Lugar
+  $500                                                       $200                                               5 membresías anuales gratuitas del chat Napoleon
+Golden Elf NFT especial                                 Comun Golden Elf                                                      Comun Golden Elf
+5 membresías anuales gratuitas del chat Napoleon     5 membresías anuales gratuitas del chat Napoleon          Recomendación por Linkelit por el CEO de las empresas
+
+Recomendación por Linkelit por el                    Recomendación por Linkelit por el
+CEO de las empresas patrocinantes                    CEO de las empresas patrocinantes                                     Role en el discord del hackaton
+
+Role en el discord del hackaton                       Role en el discord del hackaton
 
