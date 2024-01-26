@@ -1,5 +1,7 @@
-# White paper: NGOLD, el token no fungible del proyecto NFT GOLDEN ELF
-Introducción
+# White paper: NGOLD
+Token no fungible del proyecto NFT GOLDEN ELF
+
+### ***Introducción***
 NGOLD es un token no fungible (NFT) que forma parte del proyecto NFT GOLDEN ELF, una colección de 9,999
 objetos de colección digitales únicos que existen en la cadena de bloques de Ethereum. Cada NFT GOLDEN ELF
 representa un elfo con un estilo y unas características generadas de manera aleatoria, que lo hacen irrepetible e
@@ -24,7 +26,7 @@ que ofrece el token NGOLD, la utilidad y la tokenómica del mismo, el roadmap de
 conclusiones. También se incluirá un apéndice con información técnica adicional y una lista de recursos para
 profundizar en el tema.
 
-Problema
+### ***Problema***
 Los NFT (non-fungible tokens) son tokens digitales que representan activos únicos e indivisibles, que pueden ser
 de cualquier tipo, como arte, música, juegos, deportes, etc. Los NFT se almacenan en la cadena de bloques, lo que
 garantiza su autenticidad, su propiedad y su trazabilidad. Los NFT han revolucionado el mundo digital, al permitir
@@ -40,7 +42,7 @@ accesibilidad, una mayor liquidez, una menor fricción y una mayor integración 
 El token NGOLD es el elemento central de este ecosistema, ya que es el que otorga a sus poseedores el acceso y el
 beneficio de todos los productos y servicios que se desarrollen dentro del proyecto NFT GOLDEN ELF.
 
-Solución
+### ***Solución***
 El token NGOLD es un token no fungible (NFT) que se emite como un complemento de cada NFT GOLDEN
 ELF. Es decir, cada vez que se acuña o se compra un NFT GOLDEN ELF, se genera un token NGOLD asociado al
 mismo, que se envía al mismo monedero del comprador. El token NGOLD representa el valor intrínseco de cada
@@ -64,7 +66,7 @@ acceder a los productos y servicios del ecosistema NFT GOLDEN ELF. Esta función
 por un lado, incentiva a los poseedores de NGOLD a mantener el token y a participar activamente en el
 proyecto, y por otro lado, genera una fuente de ingresos pasivos para los poseedores de NGOLD.
 
-Utilidad / Tokenómica
+### ***Utilidad / Tokenómica***
 El token NGOLD tiene una utilidad y una tokenómica que lo hacen atractivo y beneficioso para sus poseedores,
 tanto desde el punto de vista del valor como del uso. El token NGOLD tiene las siguientes ventajas y derechos:
 Acceso preferente y exclusivo a los productos y servicios del ecosistema NFT GOLDEN ELF, como juegos,
@@ -90,7 +92,7 @@ mercado del NFT GOLDEN ELF y del token NGOLD en el momento de la quema. Esta opc
 los poseedores de NGOLD tener una salida si lo desean, así como reducir el suministro de NGOLD y
 aumentar su valor.
 
-El roadmap:
+### ***El roadmap:***
 Fase 1: Lanzamiento de la colección de NFT GOLDEN ELF y del token NGOLD. En esta fase se acuñarán
 y se pondrán a la venta los 9,999 NFT GOLDEN ELF, cada uno con su token NGOLD asociado. Los NFT
 GOLDEN ELF se podrán comprar en el sitio web oficial del proyecto, así como en los principales mercados
@@ -122,7 +124,7 @@ como objetivo ofrecer una mayor utilidad y valor a los poseedores de NFT GOLDEN 
 NGOLD y NGELF, así como atraer a nuevos usuarios e inversores al proyecto. Los productos y servicios se
 irán anunciando y lanzando según la demanda y el feedback de la comunidad.
 
-Equipo
+### ***Equipo***
 El equipo detrás del proyecto NFT GOLDEN ELF está formado por Dario Gonzalez y Nelson Castro Andrews,
 dos profesionales con amplia experiencia y reconocimiento en el ámbito de la tecnología, el diseño y la
 innovación.
@@ -137,7 +139,7 @@ Dario y Nelson se conocieron en un hackathon de NFT organizado por ConsenSys, do
 premio con su propuesta de NFT GOLDEN ELF. Desde entonces, han trabajado juntos en el desarrollo y la
 promoción del proyecto, con el apoyo de una comunidad de entusiastas, colaboradores y asesores.
 
-Conclusiones
+### ***Conclusiones***
 NGOLD es el token no fungible del proyecto NFT GOLDEN ELF, una colección de 9,999 objetos de colección
 digitales únicos que existen en la cadena de bloques de Ethereum. El token NGOLD otorga a sus poseedores
 derechos y ventajas únicas dentro del ecosistema que se está creando alrededor de los NFT GOLDEN ELF, como
@@ -170,7 +172,7 @@ visitando el sitio web oficial, siguiendo las redes sociales, uniéndote a la co
 tu propio NFT GOLDEN ELF y tu token NGOLD. No dejes pasar esta oportunidad de formar parte de un
 proyecto innovador, divertido y rentable, que está revolucionando el mundo de los NFT. ¡Te esperamos! 😊
 
-Apéndice
+### ***Apéndice***
 En esta sección se incluye información técnica adicional y una lista de recursos para profundizar en el tema.
 Información técnica
 El token NGOLD es un token ERC-721, que cumple con el estándar de los NFT en la cadena de bloques de
