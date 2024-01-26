@@ -221,11 +221,20 @@ muestra el historial de transacciones y el precio actual de cada NFT.
 ***Recursos adicionales***
 Para obtener más información sobre el proyecto, el token y la colección de NFTs Golden Elf, se pueden consultar
 los siguientes recursos:
+
 Sitio web oficial: https://www.goldenelf.com
+
 Twitter oficial: https://twitter.com/goldenelf
+
 Discord oficial: https://discord.gg/goldenelf
+
 Medium oficial: https://medium.com/goldenelf
+
 White paper completo: https://www.goldenelf.com/whitepaper.pdf
+
 Contrato inteligente del token Golden ELF: https://etherscan.io/token/0x123456789abcdef
+
 Contrato inteligente de la colección de NFTs Golden Elf: https://etherscan.io/token/0xfedcba987654321
+
 OpenSea de la colección de NFTs Golden Elf: https://opensea.io/collection/golden-elf
+
