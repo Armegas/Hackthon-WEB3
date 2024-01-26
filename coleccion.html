@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace a Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        /* Cambiar el color de fondo de la barra de navegación y el pie de página a un verde oliva degradado */
+        .bg-dark {
+            background: linear-gradient(to right, #0602ec, #f8e002);
+        }
+        /* Cambiar el color de fondo de la cabecera a un verde oliva más oscuro */
+        .jumbotron {
+            background: linear-gradient(to right, #0b08df, #ecc902);
+        }
+    </style>
+    <style>
+        /* Estilos personalizados */
+        .custom-title {
+            font-size: 4em; /* Tamaño de la fuente */
+            font-family: 'Arial', sans-serif; /* Tipo de fuente */
+            color: #ecc902; /* Color del texto */
+            text-shadow: 2px 2px 4px #000000; /* Sombra del texto */
+            transition: color 0.5s; /* Transición suave del color */
+    }
+    .custom-title:hover {
+        color: #0602ec; /* Color del texto cuando el cursor está sobre el título */
+    }
+     /* Estilos personalizados */
+     body {
+        /* URL de la imagen de fondo */
+        background-image: url('maxresdefault.jpg');
+        /* Centrar y escalar la imagen de fondo */
+        background-position: center;
+        background-size: cover;
+        /* Fijar la imagen de fondo para que no se desplace al hacer scroll */
+        background-attachment: fixed;
+    }
+    </style>
+    <title> web con criterios de calidad</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-leaf"></i>
+                Coleccion
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><strong>INICIO</strong><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="coleccion.html"><strong>COLECCIÓN</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="token.html"><strong>TOKEN</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="equipo.html"><strong>EQUIPO</strong></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="community.html"><strong>COMMUNITY</strong></a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Cabecera con imagen de fondo -->
+    <header class="jumbotron jumbotron-fluid" style="background-image: url('fondo.jpg'); background-size: cover; height: 500px;">
+        <div class="container">
+            <h1 class="custom-title">Golden Elf</h1>
+            <p class="lead text-white"><strong>La colección privada de NFTs más exclusiva y novedosa del mercado.</strong></p>
+            <a href="#" class="btn btn-primary btn-lg">Comprar token</a>
+            <br>
+            <br>
+            <style>
+                .img-fluid {
+                    transition: transform 0.2s; /* Animación */
+                }
+            
+                .img-fluid:hover {
+                    transform: scale(1.5); /* Escala la imagen 1.5 veces su tamaño original */
+                }
+            </style>
+            
+            <div class="col-md-8">
+                <img src="no solo digital.png" alt="Logo de Golden Elf" class="img-fluid"> 
+                <img src="nft collection.png" alt="Logo de Golden Elf" class="img-fluid"> 
+                <img src="monedasdeoro.png" alt="Logo de Golden Elf" class="img-fluid"> 
+            </div>
+    </header>
+    <!-- Sección de introducción -->
+    <section class="bg-dark text-white py-4">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>¿Colección de NFT Golden Elf?</h2>
+                <p>
+                    <style>
+                        p {
+                            text-align: justify;
+                        }
+                    </style>
+                    Los NFTs Golden Elf se generan de manera aleatoria y con estilo, utilizando un algoritmo basado en la combinación de elementos 
+                    y atributos. Cada elemento tiene una probabilidad y una rareza distintas, lo que hace que cada NFT sea único e irrepetible. Los 
+                    elementos y atributos son los siguientes:<br>
+
+
+                    Color: El color del elfo, que puede ser verde, azul, rojo, amarillo, morado, rosa, blanco o negro. Cada color tiene una probabilidad 
+                    del 12.5%. Género: El género del elfo, que puede ser masculino o femenino. Cada género tiene una probabilidad del 50%. <br>
+
+                    
+                    Cabello: El tipo de cabello del elfo, que puede ser largo, corto, rizado, liso, con flequillo, con coleta, con moño, con trenzas, 
+                    con sombrero, con gorra, con casco, con corona, con tiara, con diadema, con orejeras o sin cabello. Cada tipo de cabello tiene una 
+                    probabilidad del 6.25%, excepto el sin cabello, que tiene una probabilidad del 1.56%. <br>
+                    
+
+                    Ojos: El tipo de ojos del elfo, que puede ser normal, grande, pequeño, redondo, almendrado, rasgado, cerrado, con gafas, con parche, 
+                    con antifaz, con monóculo, con lentes de contacto, con maquillaje, con cejas, con pestañas o sin ojos. Cada tipo de ojos tiene una 
+                    probabilidad del 6.25%, excepto el sin ojos, que tiene una probabilidad del 1.56%. <br>
+                    
+
+                    Orejas: El tipo de orejas del elfo, que puede ser normal, puntiagudo, largo, corto, doblado, con pendientes, con aretes, con piercings, 
+                    con tatuajes, con plumas, con flores, con hojas, con joyas, con adornos, con audífonos o sin orejas. Cada tipo de orejas tiene una 
+                    probabilidad del 6.25%, excepto el sin orejas, que tiene una probabilidad del 1.56%. <br>
+                    
+
+                    Ropa: El tipo de ropa del elfo, que puede ser casual, formal, deportivo, elegante, cómodo, extravagante, moderno, clásico, vintage, 
+                    futurista, medieval, oriental, occidental, tropical, ártico o desnudo. Cada tipo de ropa tiene una probabilidad del 6.25%, excepto 
+                    el desnudo, que tiene una probabilidad del 1.56%. <br>
+                    
+
+                    Accesorios: El tipo de accesorios del elfo, que puede ser ninguno, collar, pulsera, anillo, reloj, cadena, broche, colgante, medalla, 
+                    insignia, llavero, bolso, mochila, maleta, cartera o cinturón. Cada tipo de accesorios tiene una probabilidad del 6.25%, excepto el 
+                    ninguno, que tiene una probabilidad del 1.56%. La rareza de cada NFT se determina por la combinación de los elementos y atributos, 
+                    según la siguiente escala: <br>
+                    
+
+                    Común: El NFT tiene al menos un elemento o atributo con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT común es del 10%. <br>
+                    
+
+                    Raro: El NFT tiene al menos dos elementos o atributos con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT raro es del 5%. <br>
+                    
+
+                    Épico: El NFT tiene al menos tres elementos o atributos con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT épico es del 2.5%. <br>
+                    
+
+                    Legendario: El NFT tiene al menos cuatro elementos o atributos con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT legendario es del 1%. <br>
+                    
+
+                    Mítico: El NFT tiene al menos cinco elementos o atributos con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT mítico es del 0.5%. <br>
+                    
+
+                    Único: El NFT tiene todos los elementos o atributos con una probabilidad menor o igual al 1.56%. La probabilidad de obtener un NFT único es del 0.01%.<br>
+                </p>
+                <p>
+            </div>
+            <style>
+                .img-fluid {
+                    width: 200px;  /* Ancho fijo */
+                    height: auto; /* Altura automática para mantener la proporción */
+                }
+            </style>
+            <style>
+                @keyframes mover {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(100px); }
+                }
+            
+                .img-fluid:hover {
+                    transform: scale(1.5); /* Escala la imagen 1.5 veces su tamaño original */
+                }
+            </style>
+            
+            <div class="col-md-6">
+                <img src="elf_1.jpg" alt="Logo de Golden Elf" class="img-fluid">   
+                <img src="elf_2.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_3.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_4.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_5.jpg" alt="Logo de Golden Elf" class="img-fluid">   
+                <img src="elf_6.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_7.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_8.jpg" alt="Logo de Golden Elf" class="img-fluid"> 
+                <img src="elf_9.jpg" alt="Logo de Golden Elf" class="img-fluid">   
+                <img src="elf_10.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_11.jpg" alt="Logo de Golden Elf" class="img-fluid">  
+                <img src="elf_12.jpg" alt="Logo de Golden Elf" class="img-fluid">   
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </section>
+    <!-- Sección de problema y solución -->
+    <section class="bg-dark text-white py-4">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+        </div>
+    </section>
+    <!-- Sección de pie de página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>&copy; 2024 Golden Elf. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-4">
+                    <p><a href="#" class="text-white">Política de privacidad</a> | <a href="#" class="text-white">Términos y condiciones</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p>Síguenos en: <a href="#" class="text-white"><i class="fab fa-twitter"></i></a> <a href="#" class="text-white"><i class="fab fa-facebook"></i></a> <a href="#" class="text-white"><i class="fab fa-instagram"></i></a></p>
+                    <a href="https://discord.gg/tu-codigo-de-invitacion">Síguenos en Discord</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Enlaces a Bootstrap y jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
