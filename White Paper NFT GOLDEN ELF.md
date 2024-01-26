@@ -1,6 +1,7 @@
 ## White paper de Golden ELF
 
 ***1. Introducción***
+
 Golden ELF es un token fungible (token-alcoin) que representa la participación y el acceso a la colección privada
 de NFTs Golden Elf, una serie de objetos de colección digitales únicos que existen en la cadena de bloques de
 Ethereum. Golden Elf es una colección de 9,999 NFT generados de manera aleatoria y con estilo, que representan
@@ -14,7 +15,7 @@ El propósito de este white paper es proporcionar a los inversores y al público
 proyecto, su utilidad, su tokenomics y su equipo. También explicaremos el problema que el proyecto pretende
 resolver, la solución que ofrece, el roadmap que seguirá y los recursos adicionales que se pueden consultar.
 
-2. Problema
+***2. Problema***
 El mercado de los NFTs ha experimentado un crecimiento exponencial en los últimos años, impulsado por el
 interés de los coleccionistas, los artistas, los creadores y los entusiastas de la tecnología. Los NFTs son tokens no
 fungibles que representan la propiedad y la autenticidad de activos digitales únicos, como arte, música, juegos,
@@ -30,7 +31,7 @@ plazo.
 La falta de innovación: Muchos proyectos de NFTs se limitan a replicar modelos existentes o a crear
 colecciones genéricas y sin personalidad. Esto puede generar saturación y pérdida de valor en el mercado.
 
-3. Solución
+***3. Solución***
 Golden Elf ofrece una solución innovadora y disruptiva al mercado de los NFTs, al combinar los beneficios de los
 tokens fungibles y los tokens no fungibles en un solo ecosistema. Golden Elf crea una colección privada de NFTs
 de alta calidad y con personalidad propia, que se complementa con un token fungible que representa la
@@ -57,7 +58,7 @@ cada elfo sea único e irrepetible. Además, Golden Elf incorpora elementos de g
 crear una historia y un universo alrededor de los elfos, que se irá revelando y expandiendo con cada nuevo
 producto que se lance.
 
-4. Utilidad / Tokenomics
+***4. Utilidad / Tokenomics***
 El token Golden ELF es un token fungible (token-alcoin) que se basa en el estándar ERC-20 de la red de
 Ethereum. El token Golden ELF tiene una oferta total de 100 millones de unidades, de las cuales se distribuyen de
 la siguiente manera:
@@ -87,7 +88,7 @@ desarrollo del proyecto, que es un fondo que se invertirá en la mejora continua
 mediante la exploración de nuevas tecnologías, tendencias, oportunidades y soluciones que puedan aportar
 valor y diferenciación al proyecto.
 
-5. Roadmap
+***5. Roadmap***
 El roadmap de Golden Elf es el plan de acción que guía el desarrollo y el crecimiento del proyecto en el futuro. El
 roadmap se divide en cuatro fases:
 Fase 1: Lanzamiento del token Golden ELF y de la colección de NFTs Golden Elf. En esta fase se realizará
@@ -118,7 +119,7 @@ ejemplos de posibles productos y servicios son: una plataforma de streaming de m
 elfos, una galería de arte digital de los elfos, una academia de aprendizaje de las habilidades y los
 conocimientos de los elfos, una tienda de merchandising de los elfos y más.
 
-6. Equipo
+***6. Equipo***
 El equipo detrás del desarroloo de los tracs de Golden Elf está conformado por dos profesionales con amplia experiencia y pasión por el
 mundo de Data Science, WEB3, NFT y blockchain. Ellos son:
 Nelson Castro Andrews: Ingeniero de Sistemas especializado en Data Science egresado de Henry Students. Nelson es el líder
@@ -132,7 +133,7 @@ de NFTs. Dario tiene más de 8 años de experiencia en el desarrollo web, utiliz
 frameworks y herramientas. Dario es un apasionado de la innovación y la creatividad, y ha creado varios
 proyectos propios y para clientes en el ámbito de los NFTs, los juegos y el arte digital.
 
-7. Conclusiones
+***7. Conclusiones***
 Golden Elf es un proyecto innovador y disruptivo que combina los beneficios de los tokens fungibles y los tokens
 no fungibles en un solo ecosistema. Golden Elf crea una colección privada de NFTs de alta calidad y con
 personalidad propia, que se complementa con un token fungible que representa la participación y el acceso a la
@@ -143,56 +144,57 @@ el espacio de WEB3 y NFT. Golden Elf invita a los inversores y al público en ge
 proyecto, a invertir en el token y a formar parte de la colección de NFTs. Golden Elf es más que un proyecto, es
 una aventura.
 
-8. Apéndice
+***8. Apéndice***
 En esta sección se incluye información adicional relevante para el proyecto, como las técnicas de funcionamiento
 del proyecto y la lista de recursos adicionales.
 
-Técnicas de funcionamiento del proyecto
+***Técnicas de funcionamiento del proyecto***
 Generación de los NFTs Golden Elf: Los NFTs Golden Elf se generan de manera aleatoria y con estilo,
 utilizando un algoritmo basado en la combinación de elementos y atributos. Cada elemento tiene una
 probabilidad y una rareza distintas, lo que hace que cada NFT sea único e irrepetible. Los elementos y
 atributos son los siguientes:
 
-Color: El color del elfo, que puede ser verde, azul, rojo, amarillo, morado, rosa, blanco o negro. Cada
+***Color:*** El color del elfo, que puede ser verde, azul, rojo, amarillo, morado, rosa, blanco o negro. Cada
 color tiene una probabilidad del 12.5%.
-Género: El género del elfo, que puede ser masculino o femenino. Cada género tiene una probabilidad
+***Género:*** El género del elfo, que puede ser masculino o femenino. Cada género tiene una probabilidad
 del 50%.
-Cabello: El tipo de cabello del elfo, que puede ser largo, corto, rizado, liso, con flequillo, con coleta,
+***Cabello:*** El tipo de cabello del elfo, que puede ser largo, corto, rizado, liso, con flequillo, con coleta,
 con moño, con trenzas, con sombrero, con gorra, con casco, con corona, con tiara, con diadema, con
 orejeras o sin cabello. Cada tipo de cabello tiene una probabilidad del 6.25%, excepto el sin cabello,
 que tiene una probabilidad del 1.56%.
-Ojos: El tipo de ojos del elfo, que puede ser normal, grande, pequeño, redondo, almendrado, rasgado,
+***Ojos:*** El tipo de ojos del elfo, que puede ser normal, grande, pequeño, redondo, almendrado, rasgado,
 cerrado, con gafas, con parche, con antifaz, con monóculo, con lentes de contacto, con maquillaje, con
 cejas, con pestañas o sin ojos. Cada tipo de ojos tiene una probabilidad del 6.25%, excepto el sin ojos,
 que tiene una probabilidad del 1.56%.
-Orejas: El tipo de orejas del elfo, que puede ser normal, puntiagudo, largo, corto, doblado, con
+***Orejas:*** El tipo de orejas del elfo, que puede ser normal, puntiagudo, largo, corto, doblado, con
 pendientes, con aretes, con piercings, con tatuajes, con plumas, con flores, con hojas, con joyas, con
 adornos, con audífonos o sin orejas. Cada tipo de orejas tiene una probabilidad del 6.25%, excepto el
 sin orejas, que tiene una probabilidad del 1.56%.
-Ropa: El tipo de ropa del elfo, que puede ser casual, formal, deportivo, elegante, cómodo,
+***Ropa:*** El tipo de ropa del elfo, que puede ser casual, formal, deportivo, elegante, cómodo,
 extravagante, moderno, clásico, vintage, futurista, medieval, oriental, occidental, tropical, ártico o
 desnudo. Cada tipo de ropa tiene una probabilidad del 6.25%, excepto el desnudo, que tiene una
 probabilidad del 1.56%.
-Accesorios: El tipo de accesorios del elfo, que puede ser ninguno, collar, pulsera, anillo, reloj, cadena,
+***Accesorios:*** El tipo de accesorios del elfo, que puede ser ninguno, collar, pulsera, anillo, reloj, cadena,
 broche, colgante, medalla, insignia, llavero, bolso, mochila, maleta, cartera o cinturón. Cada tipo de
 accesorios tiene una probabilidad del 6.25%, excepto el ninguno, que tiene una probabilidad del
 1.56%.
 La rareza de cada NFT se determina por la combinación de los elementos y atributos, según la siguiente
-escala:
-Común: El NFT tiene al menos un elemento o atributo con una probabilidad menor o igual al 1.56%. La
+***escala:***
+***Común:*** El NFT tiene al menos un elemento o atributo con una probabilidad menor o igual al 1.56%. La
 probabilidad de obtener un NFT común es del 10%.
-Raro: El NFT tiene al menos dos elementos o atributos con una probabilidad menor o igual al 1.56%. La
+***Raro:*** El NFT tiene al menos dos elementos o atributos con una probabilidad menor o igual al 1.56%. La
 probabilidad de obtener un NFT raro es del 5%.
-Épico: El NFT tiene al menos tres elementos o atributos con una probabilidad menor o igual al 1.56%. La
+***Épico:*** El NFT tiene al menos tres elementos o atributos con una probabilidad menor o igual al 1.56%. La
 probabilidad de obtener un NFT épico es del 2.5%.
-Legendario: El NFT tiene al menos cuatro elementos o atributos con una probabilidad menor o igual al
+***Legendario:*** El NFT tiene al menos cuatro elementos o atributos con una probabilidad menor o igual al
 1.56%. La probabilidad de obtener un NFT legendario es del 1%.
 Mítico: El NFT tiene al menos cinco elementos o atributos con una probabilidad menor o igual al 1.56%. La
 probabilidad de obtener un NFT mítico es del 0.5%.
-Único: El NFT tiene todos los elementos o atributos con una probabilidad menor o igual al 1.56%. La
+***Único:*** El NFT tiene todos los elementos o atributos con una probabilidad menor o igual al 1.56%. La
 probabilidad de obtener un NFT único es del 0.01%.
 
-Distribución de los NFTs Golden Elf: Los NFTs Golden Elf se distribuyen de forma aleatoria y equitativa
+***Distribución de los NFTs Golden Elf:*** 
+Los NFTs Golden Elf se distribuyen de forma aleatoria y equitativa
 entre los titulares del token Golden ELF, según el siguiente criterio:
 Cada titular del token Golden ELF tiene derecho a reclamar un NFT Golden Elf por cada 10,000
 tokens Golden ELF que posea, hasta un máximo de 10 NFTs por titular.
@@ -202,7 +204,9 @@ Los titulares del token Golden ELF tienen un plazo de 30 días desde el lanzamie
 para reclamar su(s) NFT(s), pasado el cual perderán el derecho a hacerlo. Los NFTs no reclamados se
 quemarán (burn) y se eliminarán de la circulación, lo que aumentará la escasez y el valor de los NFTs
 restantes.
-Reclamación de los NFTs Golden Elf: Los titulares del token Golden ELF pueden reclamar su(s) NFT(s)
+
+***Reclamación de los NFTs Golden Elf:*** 
+Los titulares del token Golden ELF pueden reclamar su(s) NFT(s)
 Golden Elf a través de la plataforma web del proyecto, siguiendo los pasos que se indican en el sitio. Los
 titulares del token Golden ELF tienen que conectar su billetera digital (wallet) a la plataforma, verificar su
 saldo de tokens Golden ELF, seleccionar el número de NFTs que quieren reclamar (entre 1 y 10) y
@@ -214,7 +218,7 @@ determina por el mercado, es decir, por el precio al que los usuarios están dis
 NFTs. El valor de cada NFT Golden Elf se puede consultar en la plataforma web del proyecto, donde se
 muestra el historial de transacciones y el precio actual de cada NFT.
 
-Recursos adicionales
+***Recursos adicionales***
 Para obtener más información sobre el proyecto, el token y la colección de NFTs Golden Elf, se pueden consultar
 los siguientes recursos:
 Sitio web oficial: https://www.goldenelf.com
