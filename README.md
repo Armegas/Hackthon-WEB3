@@ -197,5 +197,8 @@ En cada desafió del hackaton , se premiará con $150 al primer puesto. Además,
 del hackaton . Al final, el ganador será quien haya sumado más buhos de los 5 objetivos.
 
 <p align="center">
-<img src="https://drive.google.com/file/d/1U8--O_dG30OdtXtWGAkBsT2nropIO9a-/view?usp=sharing" height=300>
+link (https://drive.google.com/file/d/1U8--O_dG30OdtXtWGAkBsT2nropIO9a-/view?usp=sharing)
+</p> 
+<p align="center"> 
+link (https://drive.google.com/file/d/1Pv-H23PLGxppZlXqaYwJZA4V_FSBOyhY/view?usp=sharing)
 </p> 
