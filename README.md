@@ -85,3 +85,34 @@ general.
 ***La objetividad:*** El white paper debe ser objetivo y no sesgado. Debe proporcionar una visión equilibrada del proyecto, tanto
 de sus fortalezas como de sus debilidades.
 
+# ***CRITERIOS ESPECÍFICOS PARA DESARROLLO DELANDING Y WEBSITE***
+
+***Los criterios que se presentan a continuación, son las características y factores tanto internos como externos para determinar
+la calidad de un desarrollo web, sus sostenibilidad, escalabilidad, utilidad y reutilización en el tiempo. Estos criterios son fijos y
+sin variación y van de acorde con los tracks del desarrollo web o landing:***
+
+***Funcionalidad:*** La aplicación web debe cumplir con los requisitos funcionales establecidos. Esto incluye la capacidad de
+realizar las tareas para las que se ha diseñado, así como la facilidad de uso y la accesibilidad para los usuarios.
+Efectividad: El website y la landing deben ser efectivos en la consecución de sus objetivos. Esto puede medirse en términos
+de la cantidad de usuarios que tendrá de visita (tome en cuenta los tipos de servidores a sugerir, ejemplo: Apache, NGIX), el
+tiempo que pasan utilizando la aplicación o los resultados que obtienen al utilizarla.
+***Eficiencia:*** El website y la landing deben ser eficientes en el uso de los recursos. Esto incluye el consumo de memoria en los
+diferentes browser (considere los browser del mercado -se exceptúa a Chromium), CPU y ancho de banda.
+***Ciberseguridad:*** El website y la landing deben ser seguras y protegidas de ataques maliciosos. Esto incluye la
+implementación de medidas de seguridad adecuadas, como la protección contra el robo de datos y la falsificación de
+solicitudes entre sitios (considere ataques DDoS en tiempo real y Phishing).
+UI/UX: El website y la landing debe ser fácil de usar y comprender por los usuarios. Esto incluye el diseño de una interfaz
+intuitiva y la utilización de elementos de navegación claros y concisos. Considere la experiencia de usuario basada en leyes
+UX, al igual que un user flow sin dificultades.
+***Responsive:*** Basado en la accesibilidad a internet en los utlimos años, deben diseñar un sitio responsivo, la asignación de
+Media Queries es un plus.
+Mantenibilidad predictiva y correctiva: El website y la landing debe ser fácil de mantener y actualizar. Esto incluye el uso de
+un código limpio y bien estructurado, así como la documentación adecuada.
+***Rendimiento:*** El website y la landing debe funcionar con un rendimiento adecuado, sin ralentizaciones ni errores. Esto
+puede medirse en términos del tiempo de carga de las páginas, la capacidad de respuesta de la aplicación y la estabilidad
+de la aplicación. Una alta calidad en código para la actividad en segundo plano y los efectos visuales, como el
+desplazamiento fluido y la velocidad de fotogramas de los vídeo es un plus.
+Estos criterios pueden ser evaluados de forma cualitativa o cuantitativa. La evaluación cualitativa se basa en la opinión de
+expertos o usuarios, mientras que la evaluación cuantitativa se basa en datos objetivos, como el tiempo de carga de las páginas
+o el número de errores, estos serán ponderados.
+
