@@ -1,3 +1,6 @@
+
+<p align="center">
+<img src="https://goldenelf.io/images/new_img/IMG-9725.PNG"  height=100>
 # White paper de Golden ELF
 
 ## ***1. Introducción***
