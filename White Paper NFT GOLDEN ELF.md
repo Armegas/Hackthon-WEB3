@@ -127,6 +127,10 @@ ejemplos de posibles productos y servicios son: una plataforma de streaming de m
 elfos, una galería de arte digital de los elfos, una academia de aprendizaje de las habilidades y los
 conocimientos de los elfos, una tienda de merchandising de los elfos y más.
 
+
+<p align="center">
+<img src="https://avatars.githubusercontent.com/u/111100697?s=400&u=c926ae59079a2e5c966e8d625edb68d16bfc42e5&v=4"  height=500>
+
 ## ***6. Equipo***
 El equipo detrás del desarroloo de los tracs de Golden Elf está conformado por dos profesionales con amplia experiencia y pasión por el
 mundo de Data Science, WEB3, NFT y blockchain. Ellos son:
