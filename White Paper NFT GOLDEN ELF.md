@@ -156,6 +156,9 @@ el espacio de WEB3 y NFT. Golden Elf invita a los inversores y al público en ge
 proyecto, a invertir en el token y a formar parte de la colección de NFTs. Golden Elf es más que un proyecto, es
 una aventura.
 
+<p align="center">
+<img src="https://goldenelf.io/images/collections/collections_rar/elf_6.jpg"  height=500>
+
 ## ***8. Apéndice***
 En esta sección se incluye información adicional relevante para el proyecto, como las técnicas de funcionamiento
 del proyecto y la lista de recursos adicionales.
