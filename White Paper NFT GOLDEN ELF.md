@@ -93,6 +93,9 @@ desarrollo del proyecto, que es un fondo que se invertirá en la mejora continua
 mediante la exploración de nuevas tecnologías, tendencias, oportunidades y soluciones que puedan aportar
 valor y diferenciación al proyecto.
 
+<p align="center">
+<img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150882708/settings_images/OIGfy6VGTpqY9epfyXZx_Slide15.png"  height=500>
+
 ## ***5. Roadmap***
 El roadmap de Golden Elf es el plan de acción que guía el desarrollo y el crecimiento del proyecto en el futuro. El
 roadmap se divide en cuatro fases:
