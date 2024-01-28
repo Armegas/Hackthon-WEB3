@@ -1,3 +1,5 @@
+https://www.ngold.io/images/logos/NGOLDCOIN.png
+
 # White paper: NGOLD
 Token no fungible del proyecto NFT GOLDEN ELF
 
