@@ -4,9 +4,12 @@ Las pruebas que se realizaron en el Hacking Ético, también conocidas como Prue
 
  Aquí te dejo algunos detalles: 
 
- 
-
 pruebas de hacking ético realizadas en Napoleón Chat. Aquí están los resultados basados en los test realizados: 
+
+<p align="center">
+<img src="https://th.bing.com/th/id/R.6af4ab931efc17192f43f13276b4852c?rik=mXDtAJikgp%2f4pQ&pid=ImgRaw&r=0" height=100>
+</p> 
+
 
 Resultado 1 - Seguridad robusta: Dado que las técnicas de ataque y explotación no detectaron vulnerabilidades, podemos concluir que Napoleón Chat tiene una seguridad robusta que puede resistir los ataques de hackers potenciales. Fue utilizado herramientas de escaneo de seguridad Nessus y Wireshark para buscar vulnerabilidades conocidas en el sistema Napoleon Chat. Estas herramientas buscaron debilidades en los sistemas y las redes que podrían ser explotadas por un atacante. 
 
