@@ -14,7 +14,7 @@ Resultado 2 - Resistencia a ataques simulados: Como no se encontró ninguna vuln
 
 Resultado 3 - Seguridad del sistema y la red: La evaluación de seguridad no identificó vulnerabilidades en el sistema Napoleón, su red o infraestructuras. Esto sugiere que estos componentes están bien protegidos. Esta incluido una revisión de las políticas de seguridad, la configuración de la red y los sistemas, y las prácticas de gestión de contraseñas. También incluido pruebas de resistencia a ataques DDoS y pruebas de la eficacia de los firewalls y otros sistemas de defensa.
 
-Resultado 4 - Mejora continua de la seguridad: Aunque no se encontraron vulnerabilidades, se proporcionaron recomendaciones para fortalecer aún más la seguridad informática. Esto indica un enfoque de mejora continua hacia la seguridad. 
+Resultado 4 - Mejora continua de la seguridad: Aunque no se encontraron vulnerabilidades, se proporcionaron recomendaciones para fortalecer aún más la seguridad informática. Esto indica un enfoque de mejora continua hacia la seguridad. Después de realizar las pruebas, se creo este informe detallado documentando de todas las pruebas realizadas, los resultados y las recomendaciones para mejorar la seguridad. Este informe sera una herramienta valiosa para el equipo de seguridad de Napoleon Chat para fortalecer aún más su seguridad.
 
 Estos Resultados proporcionan una visión positiva de la seguridad de Napoleón Chat. Sin embargo, es importante señalar que ninguna medida de seguridad es absoluta y se debe mantener una vigilancia constante para proteger en contra de nuevas amenazas y vulnerabilidades emergentes.  
 
