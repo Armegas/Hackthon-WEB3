@@ -12,7 +12,7 @@ Resultado 1 - Seguridad robusta: Dado que las técnicas de ataque y explotación
 
 Resultado 2 - Resistencia a ataques simulados: Como no se encontró ninguna vulnerabilidad durante la simulación de ataques, podemos suponer que Napoleón Chat puede resistir una variedad de ataques cibernéticos conocidos. Los ataques incluyeron intentos de inyección SQL, ataques de fuerza bruta a las contraseñas y ataques de phishing. Estos son algunos de los métodos más comunes utilizados por los ciberdelincuentes, por lo que resistir estos ataques indica un alto nivel de seguridad.
 
-Resultado 3 - Seguridad del sistema y la red: La evaluación de seguridad no identificó vulnerabilidades en el sistema Napoleón, su red o infraestructuras. Esto sugiere que estos componentes están bien protegidos. 
+Resultado 3 - Seguridad del sistema y la red: La evaluación de seguridad no identificó vulnerabilidades en el sistema Napoleón, su red o infraestructuras. Esto sugiere que estos componentes están bien protegidos. Esta incluido una revisión de las políticas de seguridad, la configuración de la red y los sistemas, y las prácticas de gestión de contraseñas. También incluido pruebas de resistencia a ataques DDoS y pruebas de la eficacia de los firewalls y otros sistemas de defensa.
 
 Resultado 4 - Mejora continua de la seguridad: Aunque no se encontraron vulnerabilidades, se proporcionaron recomendaciones para fortalecer aún más la seguridad informática. Esto indica un enfoque de mejora continua hacia la seguridad. 
 
