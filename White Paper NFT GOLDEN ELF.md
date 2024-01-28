@@ -3,7 +3,7 @@
 <img src="https://goldenelf.io/images/new_img/IMG-9725.PNG"  height=500>
 
   
-# White paper de Golden ELF
+# White paper de NFT Golden ELF
 
 ## ***1. Introducción***
 
