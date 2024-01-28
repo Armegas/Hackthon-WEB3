@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golden Elf NFT Marketplace</title>
+    <style>
+       /* Estilo para el cuerpo de la página */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    margin: 20px;  
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 9px #999;
+    transition-duration: 0.4s;
+}
+
+/* Estilo para los botones cuando se pasa el cursor por encima */
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Estilo para los botones cuando se presionan */
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
+</head>
+<body>
+    <h1>Bienvenido al mercado de NFTs de Golden Elf</h1>
+    <button id="connect">Conectar billetera</button>
+    <button id="mint">Mintear NFT</button>
+    <button class="pay-button">Pay</button>
+    <div id="status"></div>
+    <script>
+        // Declaramos las variables que vamos a usar
+        let web3;
+        let accounts;
+        let contract;
+
+        window.addEventListener('load', async () => {
+            if (window.ethereum) {
+                web3 = new Web3(window.ethereum);
+                try {
+                    await window.ethereum.enable();
+                    accounts = await web3.eth.getAccounts();
+                    document.getElementById('status').innerText = `Billetera conectada: ${accounts[0]}`;
+
+                    // Aquí inicializarías tu contrato
+                    // La dirección del contrato en la red Ethereum
+                    const contractAddress = '0x...'; // Reemplaza esto con la dirección de tu contrato
+
+                    // La ABI (Application Binary Interface) de tu contrato
+                    const contractABI = [...]; // Reemplaza esto con la ABI de tu contrato
+
+                    // Creamos una instancia de nuestro contrato
+                    contract = new web3.eth.Contract(contractABI, contractAddress);
+                } catch (error) {
+                    // Si hay un error, lo mostramos en la consola
+                    console.error(error);
+                }
+            } else {
+                // Si el usuario no tiene MetaMask, le pedimos que lo instale
+                document.getElementById('status').innerText = 'Por favor instala MetaMask';
+            }
+        });
+
+        // Cuando el usuario hace clic en el botón, ejecutamos este código
+        document.getElementById('connect').addEventListener('click', async () => {
+            if (!web3) {
+                // Si el usuario no tiene MetaMask, le pedimos que lo instale
+                alert('Por favor instala MetaMask');
+            }
+        });
+
+        document.getElementById('mint').addEventListener('click', async () => {
+            if (!web3 || !contract) {
+                alert('Por favor conecta tu billetera y asegúrate de que el contrato esté inicializado');
+            } else {
+                // Llamamos a la función 'mint' de nuestro contrato
+                const recipientAddress = '0x...'; // Reemplaza esto con la dirección del destinatario
+                contract.methods.mint(recipientAddress).send({ from: accounts[0] })
+                    .on('transactionHash', (hash) => {
+                        // Esta función se ejecuta cuando la transacción se ha enviado a la red
+                        console.log(`Transacción enviada: ${hash}`);
+                    })
+                    .on('receipt', (receipt) => {
+                        // Esta función se ejecuta cuando la transacción ha sido minada
+                        console.log(`Transacción minada: ${receipt.transactionHash}`);
+                    })
+                    .on('error', (error) => {
+                        // Esta función se ejecuta si hay un error
+                        console.error(error);
+                    });
+            }
+        });
+
+        $('.pay-button').click(() => {
+            // paymentAddress is where funds will be send to
+            const paymentAddress = '0xFd9aAFC07D927ECD801E7CBb999E442c09b00cce'
+            const amountEth = 0.5
+
+            web3.eth.sendTransaction({
+                to: paymentAddress,
+                value: web3.toWei(amountEth, 'ether')
+            }, (err, transactionId) => {
+                if  (err) {
+                    console.log('Payment failed', err)
+                    $('#status').html('Payment failed')
+                } else {
+                    console.log('Payment successful', transactionId)
+                    $('#status').html('Payment successful')
+                }
+            })
+        });
+    </script>
+</body>
+</html>

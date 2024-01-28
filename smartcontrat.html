@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golden Elf NFT Marketplace</title>
+    <style>
+        /* Estilo para el cuerpo de la página */
+body {
+    /* Define el color de fondo de la página */
+    background-color: #f0f0f0;
+    /* Define el tipo de letra y el tamaño del texto */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    /* Define el color del texto */
+    color: #333;
+    /* Define el tamaño del texto */
+    font-size: 24px;
+}
+
+/* Estilo para el botón */
+button {
+    /* Define el color de fondo del botón */
+    background-color: #4CAF50;
+    /* Define el color del texto del botón */
+    color: white;
+    /* Define el tamaño del texto del botón */
+    font-size: 20px;
+    /* Define el margen alrededor del botón */
+    margin: 10px;
+    /* Define el relleno dentro del botón */
+    padding: 15px 32px;
+    /* Define el tipo de letra del texto del botón */
+    font-family: Arial, sans-serif;
+    /* Define el estilo del borde del botón */
+    border: none;
+    /* Define el estilo del cursor cuando se pasa por encima del botón */
+    cursor: pointer;
+}
+
+/* Estilo para el botón cuando se pasa el cursor por encima */
+button:hover {
+    /* Define el color de fondo del botón cuando se pasa el cursor por encima */
+    background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <h1>Bienvenido al mercado de NFTs de Golden Elf</h1>
+    <button id="connect">Conectar billetera</button>
+    <div id="status"></div>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script>
+        // Declaramos las variables que vamos a usar
+let web3;
+let accounts;
+let contract;
+
+// Cuando la página se carga, ejecutamos este código
+window.addEventListener('load', async () => {
+    // Verificamos si el navegador del usuario tiene instalado MetaMask
+    if (window.ethereum) {
+        // Inicializamos web3 con el proveedor de MetaMask
+        web3 = new Web3(window.ethereum);
+        try {
+            // Solicitamos al usuario que nos permita acceder a su billetera
+            await window.ethereum.enable();
+            // Obtenemos las cuentas del usuario
+            accounts = await web3.eth.getAccounts();
+            // Mostramos en la página la dirección de la billetera del usuario
+            document.getElementById('status').innerText = `Billetera conectada: ${accounts[0]}`;
+            // Aquí inicializarías tu contrato
+        } catch (error) {
+            // Si hay un error, lo mostramos en la consola
+            console.error(error);
+        }
+    } else {
+        // Si el usuario no tiene MetaMask, le pedimos que lo instale
+        document.getElementById('status').innerText = 'Por favor instala MetaMask';
+    }
+});
+
+// Cuando el usuario hace clic en el botón, ejecutamos este código
+document.getElementById('connect').addEventListener('click', async () => {
+    if (!web3) {
+        // Si el usuario no tiene MetaMask, le pedimos que lo instale
+        alert('Por favor instala MetaMask');
+    } else {
+        // Aquí podrías llamar a las funciones de tu contrato
+    }
+});
+        let web3;
+        let accounts;
+        let contract;
+
+        window.addEventListener('load', async () => {
+            if (window.ethereum) {
+                web3 = new Web3(window.ethereum);
+                try {
+                    await window.ethereum.enable();
+                    accounts = await web3.eth.getAccounts();
+                    document.getElementById('status').innerText = `Billetera conectada: ${accounts[0]}`;
+                    // Aquí inicializarías tu contrato
+
+// La dirección del contrato en la red Ethereum
+const contractAddress = '0x...'; // Reemplaza esto con la dirección de tu contrato
+
+// La ABI (Application Binary Interface) de tu contrato
+const contractABI = [...]; // Reemplaza esto con la ABI de tu contrato
+
+// Creamos una instancia de nuestro contrato
+contract = new web3.eth.Contract(contractABI, contractAddress);
+                } catch (error) {
+                    console.error(error);
+                }
+            } else {
+                document.getElementById('status').innerText = 'Por favor instala MetaMask';
+            }
+        });
+
+        document.getElementById('connect').addEventListener('click', async () => {
+            if (!web3) {
+                alert('Por favor instala MetaMask');
+            } else {
+                // Por ejemplo, si tu contrato tiene una función llamada 'mint'
+// que recibe como parámetro la dirección del destinatario del NFT,
+// podrías llamarla así:
+
+const recipientAddress = '0x...'; // Reemplaza esto con la dirección del destinatario
+
+// Llamamos a la función 'mint' de nuestro contrato
+contract.methods.mint(recipientAddress).send({ from: accounts[0] })
+    .on('transactionHash', (hash) => {
+        // Esta función se ejecuta cuando la transacción se ha enviado a la red
+        console.log(`Transacción enviada: ${hash}`);
+    })
+    .on('receipt', (receipt) => {
+        // Esta función se ejecuta cuando la transacción ha sido minada
+        console.log(`Transacción minada: ${receipt.transactionHash}`);
+    })
+    .on('error', (error) => {
+        // Esta función se ejecuta si hay un error
+        console.error(error);
+    });
+            }
+        });
+    </script>
+</body>
+</html>
