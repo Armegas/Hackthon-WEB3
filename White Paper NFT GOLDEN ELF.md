@@ -1,9 +1,4 @@
-
-<p align="center">
-<img src="https://goldenelf.io/images/new_img/IMG-9725.PNG"  height=500>
-
-  
-# White paper de NFT Golden ELF
+# White paper de Golden ELF
 
 ## ***1. Introducción***
 
@@ -93,9 +88,6 @@ desarrollo del proyecto, que es un fondo que se invertirá en la mejora continua
 mediante la exploración de nuevas tecnologías, tendencias, oportunidades y soluciones que puedan aportar
 valor y diferenciación al proyecto.
 
-<p align="center">
-<img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2150882708/settings_images/OIGfy6VGTpqY9epfyXZx_Slide15.png"  height=500>
-
 ## ***5. Roadmap***
 El roadmap de Golden Elf es el plan de acción que guía el desarrollo y el crecimiento del proyecto en el futuro. El
 roadmap se divide en cuatro fases:
@@ -127,10 +119,6 @@ ejemplos de posibles productos y servicios son: una plataforma de streaming de m
 elfos, una galería de arte digital de los elfos, una academia de aprendizaje de las habilidades y los
 conocimientos de los elfos, una tienda de merchandising de los elfos y más.
 
-
-<p align="center">
-<img src="https://avatars.githubusercontent.com/u/111100697?s=400&u=c926ae59079a2e5c966e8d625edb68d16bfc42e5&v=4"  height=500>
-
 ## ***6. Equipo***
 El equipo detrás del desarroloo de los tracs de Golden Elf está conformado por dos profesionales con amplia experiencia y pasión por el
 mundo de Data Science, WEB3, NFT y blockchain. Ellos son:
@@ -155,9 +143,6 @@ Golden Elf es un proyecto con un gran potencial y una visión a largo plazo, que
 el espacio de WEB3 y NFT. Golden Elf invita a los inversores y al público en general a aprender más sobre el
 proyecto, a invertir en el token y a formar parte de la colección de NFTs. Golden Elf es más que un proyecto, es
 una aventura.
-
-<p align="center">
-<img src="https://goldenelf.io/images/collections/collections_rar/elf_6.jpg"  height=500>
 
 ## ***8. Apéndice***
 En esta sección se incluye información adicional relevante para el proyecto, como las técnicas de funcionamiento

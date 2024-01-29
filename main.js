@@ -1,3 +1,11 @@
+import detectEthereumProvider from '@metamask/detect-provider';
+const provider = await detectEthereumProvider();
+
+if (provider) {
+  console.log('MetaMask está instalado!');
+} else {
+  console.log('Por favor, instala MetaMask!');
+}
 window.addEventListener('load', async () => {
     // Modern dapp browsers...
     if (window.ethereum) {

@@ -85,7 +85,7 @@ general.
 ***La objetividad:*** El white paper debe ser objetivo y no sesgado. Debe proporcionar una visión equilibrada del proyecto, tanto
 de sus fortalezas como de sus debilidades.
 
-# ***CRITERIOS ESPECÍFICOS PARA DESARROLLO DE LANDING Y WEBSITE***
+# ***CRITERIOS ESPECÍFICOS PARA DESARROLLO DELANDING Y WEBSITE***
 
 ***Los criterios que se presentan a continuación, son las características y factores tanto internos como externos para determinar
 la calidad de un desarrollo web, sus sostenibilidad, escalabilidad, utilidad y reutilización en el tiempo. Estos criterios son fijos y
